@@ -1,0 +1,48 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.image-container, .audio-container, .video-container, .text-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.audio-container audio,
+.video-container video {
+    width: 100%;
+    max-width: 300px;
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Add your custom styling here */
+
